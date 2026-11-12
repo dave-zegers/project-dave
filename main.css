@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #263752;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: white;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+header a:hover {
+    background-color: #465b7a;
+}
+
+main {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: white;
+}
+
+main h1 {
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 18px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+.contact {
+    width: 400px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #263752;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #263752;
+    padding: 20px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: auto;
+}
+
+footer li {
+    color: white;
+    text-decoration: none;
+}
+
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.intro {
+    margin-bottom: 35px;
+    font-size: 17px;
+}
+
+.question {
+    background-color: lightgray;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.vraag {
+    font-weight: bold;
+    color: #263752;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.question p {
+    line-height: 1.5;
+}

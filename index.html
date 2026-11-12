@@ -1,10 +1,67 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <title>Mijn Website</title>
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    <h1>Mijn website</h1>
+
+    <header>
+        <nav>
+            <h2>Website van Dave</h2>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Over mij</a></li>
+                <li><a href="interview.html">Interview</a></li>
+                <li><a href="projects.html">Projecten</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welkom op mijn website!</h1>
+
+        <p>
+            Leuk dat je mijn website bezoekt!
+            Ik ben Dave Zegers.
+        </p>
+
+        <video width="400" height="300" controls>
+            <source src="Uncle Moton!.mp4" type="video/mp4">
+            Je browser ondersteunt de video tag niet.
+        </video>
+    </main>
+
+    <div class="contact">
+        <h2>Contact mij:</h2>
+
+        <form action="index.html" method="post">
+
+            <label for="name">Naam:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Bericht:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Verzenden</button>
+
+        </form>
+    </div>
+
+    <footer>
+        <ul>
+            <li>&copy; 2026 Mijn Website. Alle rechten voorbehouden.</li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+    </footer>
+
 </body>
 </html>
